@@ -116,7 +116,7 @@ public class HomeLogic {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Load");
         fileChooser.setInitialDirectory(new File(System.getProperty("user.home")));
-        fileChooser.getExtensionFilters().addAll(new ExtensionFilter("ProVerif", "*.pv*"));
+        // fileChooser.getExtensionFilters().addAll(new ExtensionFilter("ProVerif", "*.pv*"));
         // Opening a dialog box
         File file = fileChooser.showOpenDialog(window);
         if (file != null) {
@@ -140,7 +140,7 @@ public class HomeLogic {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Load");
         fileChooser.setInitialDirectory(new File(System.getProperty("user.home")));
-        fileChooser.getExtensionFilters().addAll(new ExtensionFilter("Json", "*.json*"));
+        // fileChooser.getExtensionFilters().addAll(new ExtensionFilter("Json", "*.json*"));
         // Opening a dialog box
         File file = fileChooser.showOpenDialog(window);
         if (file != null) {
@@ -164,7 +164,7 @@ public class HomeLogic {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Load");
         fileChooser.setInitialDirectory(new File(System.getProperty("user.home")));
-        fileChooser.getExtensionFilters().addAll(new ExtensionFilter("Json", "*.json*"));
+        // fileChooser.getExtensionFilters().addAll(new ExtensionFilter("Json", "*.json*"));
         // Opening a dialog box
         File file = fileChooser.showOpenDialog(window);
         if (file != null) {
